@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // This redirects any frontend call to /api to your Node.js server
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'https://digital-task-completion-analytics.onrender.com',
         changeOrigin: true,
         secure: false,
       },
